@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Siswa - Kelas XII Informatika</title>
+    <!-- External CSS strictly used with relative path -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo">livi.Dev / Portofolio</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i> Beranda</a></li>
+                    <li><a href="pages/tentang.html"><i class="fa-solid fa-user"></i> Tentang Saya</a></li>
+                    <li><a href="pages/jaringan.html"><i class="fa-solid fa-globe"></i> Jaringan Komputer</a></li>
+                    <li><a href="pages/iot-arduino.html"><i class="fa-solid fa-robot"></i> IoT & Arduino</a></li>
+                    <li><a href="pages/karya-proyek.html"><i class="fa-solid fa-lightbulb"></i> Galeri Proyek</a></li>
+                    <li><a href="pages/kontak.html"><i class="fa-solid fa-envelope"></i> Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-image-wrapper">
+                    <img src="gemini ai.jpg" alt="Foto Profil Siswa" class="profil-img" onerror="this.src='https://placehold.co/300x300/1e293b/ffffff?text=Foto+Profil';">
+                </div>
+                <div class="hero-text-content">
+                    <h1>Halo, Saya <span class="highlight">mifta livia aulia wardhani</span></h1>
+                    <p class="status-badge">Siswa Kelas XII - Peminatan Rekayasa Perangkat Lunak / Informatika</p>
+                    <p class="hero-description">
+                        Selamat datang di portofolio digital saya. Tempat di mana saya mendokumentasikan perjalanan belajar, eksplorasi jaringan komputer, eksperimen Internet of Things (IoT), serta pengembangan perangkat lunak kreatif.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="pages/karya-proyek.html" class="btn btn-primary">Lihat Proyek Saya <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="pages/kontak.html" class="btn btn-secondary">Hubungi Saya <i class="fa-solid fa-paper-plane"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Summary Section -->
+        <section class="skills-section">
+            <div class="container">
+                <h2>Ringkasan Keahlian (Skills Summary)</h2>
+                <p class="section-subtitle">Kompetensi inti yang ditekuni selama masa studi di tingkat SMK/SMA Informatika.</p>
+                
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                        <h3>HTML & CSS</h3>
+                        <p>Membangun antarmuka web responsif dan semantik menggunakan HTML5 dan modern CSS styling.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>Jaringan Dasar</h3>
+                        <p>Konfigurasi IP Addressing, perancangan topologi, dan simulasi jaringan menggunakan Cisco Packet Tracer.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h3>Problem Solving</h3>
+                        <p>Kemampuan analisis logis dan pemecahan masalah komputasional secara terstruktur.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Pemrograman Dasar</h3>
+                        <p>Penguasaan logika pemrograman dasar menggunakan C++, JavaScript, dan Python untuk otomatisasi tugas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>&copy; 2026 Dwi Pratama. Kelas XII Informatika. Hak Cipta Dilindungi.</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Embedded CSS to act as the exact requested external file structure assets/css/style.css -->
+    <style id="external-css-simulation">
+        /* 
+          ==================================================
+          assets/css/style.css
+          External Stylesheet - 100% Mandatory
+          ==================================================
+        */
+        :root {
+            --primary-color: #1e3a8a; /* Navy Blue */
+            --primary-hover: #1e40af;
+            --accent-color: #3b82f6;
+            --bg-light: #f8fafc;
+            --text-dark: #334155;
+            --text-light: #64748b;
+            --white: #ffffff;
+            --border-color: #e2e8f0;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navigation Header */
+        .site-header {
+            background-color: var(--white);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand-logo {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .main-nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .main-nav a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: var(--transition);
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.375rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .main-nav a:hover, .main-nav a.active {
+            color: var(--primary-color);
+            background-color: #eff6ff;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            cursor: pointer;
+        }
+
+        /* Main Content Styling */
+        .main-content {
+            flex: 1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, #eff6ff 0%, #f1f5f9 100%);
+            padding: 5rem 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-image-wrapper {
+            flex: 1;
+            min-width: 280px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .profil-img {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid var(--white);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-text-content {
+            flex: 1.5;
+            min-width: 300px;
+        }
+
+        .hero-text-content h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 0.75rem;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+        }
+
+        .status-badge {
+            display: inline-block;
+            background-color: #dbeafe;
+            color: var(--primary-color);
+            padding: 0.35rem 0.85rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 2rem;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: var(--white);
+            color: var(--primary-color);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: #f1f5f9;
+            transform: translateY(-2px);
+        }
+
+        /* Skills Summary */
+        .skills-section {
+            padding: 4rem 2rem;
+            background-color: var(--white);
+            text-align: center;
+        }
+
+        .skills-section h2 {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .section-subtitle {
+            color: var(--text-light);
+            margin-bottom: 3rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .skill-card {
+            background-color: var(--bg-light);
+            padding: 2rem;
+            border-radius: 0.75rem;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+            text-align: left;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            border-color: var(--accent-color);
+        }
+
+        .skill-icon {
+            font-size: 2.25rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .skill-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+        }
+
+        .skill-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Page specific styling helpers for modular pages */
+        .page-header-banner {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .page-header-banner h1 {
+            font-size: 2.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .page-header-banner p {
+            color: #93c5fd;
+        }
+
+        /* Content Cards & Tables */
+        .card {
+            background-color: var(--white);
+            border-radius: 0.75rem;
+            border: 1px solid var(--border-color);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        .styled-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            text-align: left;
+        }
+
+        .styled-table th, .styled-table td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .styled-table th {
+            background-color: #f1f5f9;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Gallery Grid */
+        .activity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .activity-item {
+            background: var(--white);
+            border-radius: 0.5rem;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .activity-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.08);
+        }
+
+        .activity-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .activity-caption {
+            padding: 1rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+
+        /* Form Styling */
+        .contact-form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .contact-form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .contact-form-group input,
+        .contact-form-group select,
+        .contact-form-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.375rem;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        .contact-form-group input:focus,
+        .contact-form-group select:focus,
+        .contact-form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+        }
+
+        /* Footer */
+        .site-footer {
+            background-color: #0f172a;
+            color: var(--white);
+            padding: 2rem;
+            margin-top: auto;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .footer-social a {
+            color: var(--white);
+            font-size: 1.25rem;
+            transition: var(--transition);
+        }
+
+        .footer-social a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+            .main-nav {
+                display: none;
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: var(--white);
+                box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+                padding: 1rem 0;
+            }
+            .main-nav.active {
+                display: block;
+            }
+            .main-nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+                padding: 0 1rem;
+            }
+            .hero-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero-cta {
+                justify-content: center;
+            }
+            .footer-container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+
+    <!-- Interactive script for mobile menu & state toggles -->
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            const nav = document.getElementById('mainNav');
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
